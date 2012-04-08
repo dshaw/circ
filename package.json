@@ -1,0 +1,26 @@
+{
+  "name": "circ",
+  "version": "0.0.1",
+  "description": "Circonus API wrapper for Node.js",
+  "keywords": ["circonus"],
+  "author": "Daniel D. Shaw <dshaw@dshaw.com> (http://dshaw.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dshaw/circ"
+  },
+  "bugs": {
+    "url": "http://github.com/dshaw/circ/issues"
+  },
+  "main": "./lib/circ.js",
+  "bin": { "circ": "./bin/circ-cli.js" },
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+    "request": ""
+  },
+  "devDependencies": {
+    "mocha": ""
+  },
+  "engines": { "node": ">= 0.4.x < 0.8.0" }
+}
