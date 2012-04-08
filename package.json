@@ -1,6 +1,6 @@
 {
   "name": "circ",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Circonus API wrapper for Node.js",
   "keywords": ["circonus"],
   "author": "Daniel D. Shaw <dshaw@dshaw.com> (http://dshaw.com)",
