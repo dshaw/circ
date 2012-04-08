@@ -43,4 +43,11 @@ describe('Circ', function () {
     })
   })
 
+  describe('#check()', function () {
+    it('should return details on Circonus a check', function(done) {
+      var circ = circonus()
+      circ.check(10023, done);
+    })
+  })
+
 })
