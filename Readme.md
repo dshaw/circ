@@ -12,7 +12,9 @@ Circonus API wrapper for Node.js.
 
 ## CLI
 
-    circ metrics
+    circ checks
+    
+    circ metrics 8899
 
 ## License
 
