@@ -50,4 +50,32 @@ describe('Circ', function () {
     })
   })
 
+  describe('#graphs()', function () {
+    it('should return a list of all Circonus graphs', function(done) {
+      var circ = circonus()
+      circ.graphs(done);
+    })
+  })
+
+  describe('#worksheets()', function () {
+    it('should return a list of all Circonus worksheets', function(done) {
+      var circ = circonus()
+      circ.worksheets(done);
+    })
+  })
+
+//  describe('#graph()', function () {
+//    it('should return details on Circonus a graph', function(done) {
+//      var circ = circonus()
+//      circ.graph('888e9911-f88e-6996-f669-d22d22ed9988', done);
+//    })
+//  })
+
+//  describe('#worksheet()', function () {
+//    it('should return details on Circonus a worksheet', function(done) {
+//      var circ = circonus()
+//      circ.worksheet('888e9911-f88e-6996-f669-d22d22ed9988', done);
+//    })
+//  })
+
 })
